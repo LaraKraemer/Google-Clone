@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Images Search</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+         <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-body-white">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- Right-aligned items -->
+                    <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                        <li class="nav-item"></li>
+                            <a class="nav-link" href="index.html">Search</a>
+                        </li>
+                        <li class="nav-item"></li>
+                            <img class="header-icon" src="grid.png" alt="grid">
+                        </li>
+                        <li class="nav-item"></li>
+                            <img class="header-icon" src="icon-account.png" alt="grid">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Main -->
+        <div id="container" class="google-img" >
+                <!-- Image -->
+                <img src="google_images.png" class="img-fluid" alt="Image">
+        <form method="get" action="https://www.google.com/images" class="google-img">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-md-6">
+                        <div class="input-container">
+                            <input type="text" name="q"  class="form-control border rounded-pill" placeholder="Search Google" >
+                            
+                            <!-- Search icon to the left-->
+                            <img src="google_search.png" alt="search icon" class="search-icon">
+            
+                            <!-- Micro icon to the right -->
+                            <img src="micro.png" alt="micro" class="micro-icon">
+                            
+                            <!-- Camera icon to te right -->
+                            <img src="camera.png" alt="camera" class="camera-icon">
+                            
+                             <!-- Magni-blue icon as input field, to the right -->
+                            <input type="image" src="google_image_magni.png" alt="Submit" class="magni-icon">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>

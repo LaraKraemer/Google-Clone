@@ -1,0 +1,118 @@
+/* Index Page */
+
+/* Navbar Style */
+nav, .nav-link{
+    color: black;
+    font-size: 15px;
+}
+
+/* Style for the Navbar icons */
+.header-icon {
+    height: 24px; 
+    width: 24px;
+    margin: 7px;
+}
+
+.google-icon {
+    height: 24px; 
+    width: 74px;
+    margin: 7px;
+}
+
+/* Positioning for the input bar */
+.input-container {
+    position: relative; 
+    width: 100%;
+}
+
+/* Style for the input field */
+input[type="text"] {
+    width: 100%;
+    padding: 10px 40px 10px 40px; /* Add padding for icons */
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Ensure padding does not affect width */
+    border-color: lightgray;
+}
+
+/* Style for the search icon (left) */
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    height: 20px;
+}
+
+/* Style for the microphone icon (right) */
+.micro-icon {
+    position: absolute;
+    top: 50%;
+    right: 80px;
+    transform: translateY(-50%);
+    height: 20px;
+}
+
+/* Style for the camera icon (right) */
+.camera-icon {
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+    height: 20px;
+}
+
+.magni-icon {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    height: 20px;
+}
+
+
+/* Image Page */
+
+.img-fluid {
+    width: 250px;
+}
+
+.google-img, .img-fluid  {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Advanced Page */
+
+.item {
+    margin-bottom: 2px;
+  }
+
+/* Style for the submit button */
+.rounded-btn {
+    padding: 5px 20px; 
+    margin-right: 227px; 
+    color: white; 
+    background-color: rgb(63, 122, 238); 
+    border: none; 
+    border-radius: 5px;
+}
+
+.advanced {
+    text-align: left; 
+    margin: 20px
+}
+
+/* Style for header */
+.header-advanced {
+    color: red; 
+    font-size: 22px;
+}
+
+.title-a {
+    margin-bottom: 10px;
+}
+
+/* Style for input field */
+.form-control, .rounded-btn {
+    width: 100%;
+}
